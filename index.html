@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        overflow-x:hidden;
+        /* background: black; */
+    }
+    #text{
+        text-transform: uppercase;
+        display: flex;
+        align-items:center ;
+        justify-content: center;
+    }
+    .photo{
+        flex: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+
+    }
+    
+    #text2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    /* }
+    @media(max-width:600px){
+        #box3{
+            flex-flow: column wrap;
+        } */
+    }
+    /* @media(max-width:800px){
+        .photo{
+            flex:50%;
+            max-width: 50%;
+
+            
+        }
+    } */
+    /* @media (max-width: 600px) {
+    .photo {
+        flex: 100%;
+        max-width: 100%;
+    }
+  } */
+  /* @media(max-width:600px){
+      #box0{
+        flex: 100%;
+        max-width: 100%;
+      }
+  } */
+    #box1{
+        height:100px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment: fixed;
+    }
+     #box2{
+        height: 100px;
+        width: 80vw;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        /* background-color:darkgray */
+        overflow-y: hidden;
+    } 
+    #box3{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        /* flex-direction:column; */
+        
+        
+    }
+    #box0{
+        height: 100px;
+        width: 30vw;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        overflow-y: hidden;
+
+
+    }
+    ul{
+        list-style-type:none;
+    }
+    li{
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .vid{
+        display: flex;
+        height: 100%;
+        width: 100%;
+
+
+    }
+    
+    .fas{
+        color:red;
+    }
+   
+</style>
+<style>
+    
+    #menu{
+        display: none;
+
+    }
+    #menu_btn{
+        display: none;
+    }
+
+    /* .disp_none{
+        display: none !important;
+    } */
+    
+
+    #close{
+        display: none;
+    }
+    
+    
+</style>
+<style>
+   
+</style>
+<style>
+    @media(max-width:700px){
+        #menu_btn{
+            display: block;
+        }
+        .disp_none{
+        display: none !important;
+    }
+        /* #menu_btn{
+            display: flex;
+
+        } */
+        
+        #menu_btn{flex: 2;display: flex;justify-content: flex-end;}
+        #box3{
+                    flex: 100%;
+                    width: 100vw;
+                    height: 100vh;
+                    position: absolute;
+                    background:black;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    top: 0;
+
+            }
+            #close{display: block;
+            }
+        
+        
+    }
+    @media(max-width:500px){
+        *{
+            background: black;
+        }
+        #text{
+            color: white;
+        }
+        #text2{
+            color: white;
+        }
+        .text{
+            color: white;
+        }
+    }
+</style>
+<body>
+    <section>
+        <div id="box1">
+             <div id="box0">
+                 <img src="./Amazon.png" alt=" logo"></div>
+            <div id="box2">
+                <ul id="box3" class="disp_none">
+                    <li class="li"><a href="#">PRODUCTS </a></li>
+                    <li class="li"><a href="#">HELP </a></li>
+                    <li class="li"><a href="#">ABOUT </a></li>
+                    <li class="li"><a href="#">PROFILE</a></li>
+                    <li id="close" class="li"><a href="#">EXIT</a></li>
+                    </ul>
+                    <ul id="menu">
+                        <i class="fas fa-bars"></i>
+                    </ul>
+
+                    <ul id="menu_btn">
+                        <i class="fas fa-bars"></i>
+                    </ul>
+                    <!-- <i class="fas fa-moon"></i>     -->
+            </div>
+                <li style="list-style: none; margin-left: 10px;"><i class="fas fa-moon"></i></li>
+            <ul id="menu_btn">
+                <i class="fas fa-bars"></i>
+            </ul>
+            
+        </div>
+
+    
+    </section>
+
+    <h1 id="text">saraighat</h1>
+    <h2 id="text2">PRODUCTS PHOTO CATALOUGE</h2>
+    <video class="vid"  muted autoplay loop src="./louis watch.mp4"></video>
+    <!-- <video class="vid"  muted autoplay loop src="./vouge.mp4"></video> -->
+    <center><h1 class="text">STANDARD  BAGPACKS</h1></center>
+    <div class="photo">
+        <img id="img0" src="woman-g235b04e8a_1920.jpg" alt="backpacks">
+        <!-- <img id="img1" src="bag-g1d8e6faf8_1920.jpg" alt="no image"> -->
+        
+    </div>
+    <center><h2 class="text">LEATHER BAG</h2></center>
+    <div class="photo">
+        <img src="bag-g1d8e6faf8_1920.jpg" alt="no image">
+        
+    </div>
+
+
+</body>
+</html>
+<script>
+    const butnON = document.getElementById("menu_btn");
+    const butnOFF = document.getElementById("close");
+    const menu = document.getElementById("box3");
+
+    let funcON=()=>{
+        menu.classList.remove('disp_none');
+        // console.log('help')
+    }
+
+    let funcOFF=()=>{
+        menu.classList.add('disp_none');
+    }
+    
+    butnOFF.addEventListener('click',funcOFF)
+    butnON.addEventListener('click',funcON)
+
+
+</script>
